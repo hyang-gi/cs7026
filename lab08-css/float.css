@@ -1,0 +1,17 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image-placeholder {
+    float: left;
+    width: 120px;
+    height: 90px;
+    margin: 0 12px 8px 0;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 90px;
+  }
+  
+  .next-paragraph {
+    clear: both;
+  }

@@ -1,0 +1,46 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+
+    /* position is set to relative when you want the container to reference point for your layering */
+    position: relative;
+    background-color: pink;
+    height: 200px;;
+    padding: 20px;
+}
+
+.box {
+    margin: 4px;
+    color: antiquewhite;
+    position: absolute;
+    width: 140px;
+}
+
+.red {
+    background-color: red;
+    padding: 80px;
+    /* bottom: 100px; */
+    z-index: 1;
+}
+
+.green {
+    background-color: green;
+    padding: 40px;
+    top: 40px;
+    z-index: 2;
+}
+.blue {
+    background-color: blue;
+    padding: 20px;
+    top: 100px;
+    z-index: 3;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+    padding: 15px;
+    z-index: 9000;
+}

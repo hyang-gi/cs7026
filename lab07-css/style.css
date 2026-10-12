@@ -1,0 +1,59 @@
+/* This is the external stylesheet for Lecture 7: Intro to CSS!
+*/
+
+/* body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+
+h1 {
+    color: aquamarine;
+}
+
+
+h3 {
+    color: rgb(255, 0, 0);
+    background-color: #010110;
+}
+
+p {
+    letter-spacing: 0.5em;
+    word-spacing: 2em;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 48px 24px 12px 8px;
+    margin: 52px;
+    /* border-style: dashed;
+    border-color: green;
+    border-width: 8px; */
+    border: 8px dashed grey;
+    /* border size, border type and color is the order to be followed if you're using the shorthand */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* h3 {
+    color: rgb(255, 0, 0);
+    background-color: #000000;
+} */
+
+/* 
+p {
+    line-height: 24px;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+    text-align: center;
+    background-color: aquamarine;
+
+    padding: 2em 4em 6em 8em;
+    border: 2px dotted green;
+} */

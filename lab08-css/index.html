@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Demos</title>
+</head>
+
+<body>
+    <h1>CSS Positioning</h1>
+
+    <div>
+        <h3>Static Positioning</h3>
+        <p>This is the default positioning.</p>
+        <div class="static-example">Static Box</div>
+    </div>
+
+    <div>
+        <h3>Relative positioning</h3>
+        <p>The yellow box moves from its static/normal place. The space it started in remains unoccupied. <br> It is
+            relative to its normal position</p>
+        <div class="relative-example">Relative box</div>
+    </div>
+
+    <div>
+        <h3>Absolute positioning</h3>
+        <p>The blue label is positioned inside its relative parent.</p>
+        <div class="parent">
+            <span class="label">Absolute label</span>
+            <p>This is the parent container.</p>
+        </div>
+    </div>
+
+        <div>    
+        <h3>Fixed positioning</h3>
+        <p>The footer stays at the bottom of the browser window when you scroll.</p>
+        <div class="content">
+            <p>Scroll the page to see the fixed footer stay in place.</p>
+            <p>Fixed is relative to the viewport.</p>
+            <p>Meaning</p>
+            <p>It stays fixed</p>
+            <p>even</p>
+            <p>on</p>
+            <p>scrolling</p>
+            <p>scrolling</p>
+            <p>more scrolling</p>
+            <p>more scrolling</p>
+            <p>some more scrolling</p>
+        </div>
+    </div>
+
+    <footer class="fixed-footer">Fixed footer</footer>
+</body>
+
+</html>
