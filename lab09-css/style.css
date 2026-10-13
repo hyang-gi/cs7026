@@ -2,33 +2,47 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* flex-direction, align-items, justify-content */
+span {
+    background-color: aqua;
+    padding: 2px;
+}
 
 .wrapper-card {
+    background-color: pink;
+    padding: 1.2em;
     display: flex;
-    /* flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    align-items: center; */
     gap: 12px;
 }
 
 .card {
     padding: 16px;
     margin: 4px;
+    width: 300px;
+    /* all the cards will have similar width even if we don't assign a width with flex: 1; remove width property and try it out! 
+    flex: 1; */
     background-color: rgb(129, 236, 236);
     border: 1px solid #000;
     text-align: center;
 }
 
+/*  flex-grow = grows n times that of other items.
+    flex-shrink = shrinks n times as the other items */
+
 /* .one {
-    flex-grow: 1;
+    flex-grow: 2;
 }
-
 .two {
-    flex-grow: 1;
+    flex-grow: 0;
 }
-
 .three {
-    flex-grow: 5;
+    flex-grow: 0;
 } */
+
+/* align-self is used for the items specifically; it doesn't takes precedence over the container properties. */
+
+.one {
+    align-self: flex-end;
+}

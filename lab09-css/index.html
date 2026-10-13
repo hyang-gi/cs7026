@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header style="padding: 0 0 0 1.2em">
     <h1>Flexbox Demo</h1>
-    <p>Cards wrap based on Window Resize; some properties below:</p>
+    <p>Cards wrap based on Window Resize</p>
+
+    <span>display: flex</span> is applied to the container element to
+    use flexbox. Some properties below:
     <ul>
       <li>flex-direction</li>
       <li>align-items</li>
       <li>justify-content</li>
+      <li>flex-wrap</li>
     </ul>
   </header>
 
@@ -25,7 +30,7 @@
 
     <div class="card two">
       <h2>Card Two</h2>
-      <p>This card has more text to show how the content can differ.</p>
+      <p>This is the second card with a longer sentence within.</p>
     </div>
 
     <div class="card three">
