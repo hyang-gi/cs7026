@@ -9,6 +9,7 @@ Demo content from the semester 1 lectures. The content is separated by different
 5. Lab 07 (Stylesheets and Box Model)
 6. Lab 08 (CSS Positioning)
 7. Lab 09 (Flexbox)
+8. Lab 10 (Grid)
 
 
 
