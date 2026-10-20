@@ -1,0 +1,24 @@
+/* Element Style */
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* setting the minimum height of body element so that it takes up the whole window space */
+    min-height: 100vh;
+    /* TO-DO: interchange the background and background-size order and observe what happens! */
+    background: pink url(images/kitty.jpg) no-repeat center right;
+    background-size: 250px auto; /* assigning a pre-defined width to the image beforehand to display it correctly. */
+}
+
+/* Class Style */
+
+/* ID Style */
+
+#shorthand {
+    background-color: aquamarine;
+}
+
+#shorthand-values {
+    font-style: italic;
+    color: grey;
+}
