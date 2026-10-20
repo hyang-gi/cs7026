@@ -10,6 +10,7 @@ Demo content from the semester 1 lectures. The content is separated by different
 6. Lab 08 (CSS Positioning)
 7. Lab 09 (Flexbox)
 8. Lab 10 (Grid)
+9. Lab 11 (Background Image and Validation & Testing)
 
 
 
