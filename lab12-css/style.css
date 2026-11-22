@@ -1,0 +1,28 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: teal;
+}
+
+/* h2, h3, .group {
+    font-style: italic;
+} */
+
+/* * {
+    text-decoration: line-through;
+} */
+
+/* h1 strong {
+    color: tomato;
+} */
+
+/* 
+body > h2 {
+    color: purple;
+} */
+
+/* h2 + p {
+    text-decoration: line-through;
+} */
