@@ -1,0 +1,39 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #24323a;
+}
+
+section {
+  padding: 20px;
+  background: #eef3f5;
+  border: 1px solid #bccbd1;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Start with one column. */
+.noticeboard {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+/* At 700px and above, show two equal columns. */
+@media screen and (min-width: 700px) {
+  .noticeboard {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Hide the resize instruction when printing. */
+@media print {
+  .demo-tip {
+    display: none;
+  }
+}

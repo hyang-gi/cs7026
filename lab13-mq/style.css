@@ -1,0 +1,44 @@
+/* @import url("print.css") print; */
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+  }
+
+  body > h1 {
+    text-align: center;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .child {
+    padding: 24px;
+    background: azure;
+    border: 1px solid navy;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  
+  /* At 700px and above, show two equal columns. */
+  @media screen and (min-width: 700px) {
+    .wrapper {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  /* To hide the resize instructions while printing. */
+  @media print {
+    .demo-tip {
+      display: none;
+    }
+  }
